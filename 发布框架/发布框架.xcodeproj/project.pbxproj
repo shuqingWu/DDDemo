@@ -15,6 +15,7 @@
 		150078182067669300A02566 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 150078172067669300A02566 /* main.m */; };
 		150078222067669300A02566 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 150078212067669300A02566 /* ____Tests.m */; };
 		1500782D2067669300A02566 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500782C2067669300A02566 /* ____UITests.m */; };
+		1500783D2067670D00A02566 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1500783C2067670D00A02566 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		150078282067669300A02566 /* 发布框架UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "发布框架UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1500782C2067669300A02566 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		1500782E2067669300A02566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1500783B2067670D00A02566 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1500783C2067670D00A02566 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		150078072067669300A02566 /* 发布框架 */ = {
 			isa = PBXGroup;
 			children = (
+				1500783A2067670300A02566 /* 我的框架 */,
 				150078082067669300A02566 /* AppDelegate.h */,
 				150078092067669300A02566 /* AppDelegate.m */,
 				1500780B2067669300A02566 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				1500782E2067669300A02566 /* Info.plist */,
 			);
 			path = "发布框架UITests";
+			sourceTree = "<group>";
+		};
+		1500783A2067670300A02566 /* 我的框架 */ = {
+			isa = PBXGroup;
+			children = (
+				1500783B2067670D00A02566 /* Person.h */,
+				1500783C2067670D00A02566 /* Person.m */,
+			);
+			path = "我的框架";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			files = (
 				1500780D2067669300A02566 /* ViewController.m in Sources */,
 				150078182067669300A02566 /* main.m in Sources */,
+				1500783D2067670D00A02566 /* Person.m in Sources */,
 				1500780A2067669300A02566 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
